@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+}
+.brand h2{
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    padding-top: 40px;
+}
+.icon-img{
+    width: 80px;
+    height: 80px;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 20px;
+    cursor: pointer;
+
+}
+
+@media (max-width:900px) {
+    .footer{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        
+    }
+}
